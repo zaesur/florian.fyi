@@ -20,7 +20,8 @@ div {
 
 .lowercase {
   text-transform: lowercase;
+}
 
-  .monospace {
-    font-family: monospace;
-  }
+.monospace {
+  font-family: monospace;
+}
