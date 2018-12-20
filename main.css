@@ -1,18 +1,26 @@
 body {
-  background:#000;
-  font-family:monospace;
-  font-size:xx-large;
-  color:white;
+  background: #000;
+  font-size: xx-large;
+  color: white;
 }
+
 p, div {
-  text-align:center;
-  margin-left:auto;
-  margin-right:auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 p {
-  margin:20% 20% 0% 20%;
-  text-transform:lowercase;
+  margin: 20% 20% 0% 20%;
 }
+
 div {
-  margin:0% 20% 20% 20%;
+  margin: 0% 20% 20% 20%;
 }
+
+.lowercase {
+  text-transform: lowercase;
+
+  .monospace {
+    font-family: monospace;
+  }
