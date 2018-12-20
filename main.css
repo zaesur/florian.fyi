@@ -1,5 +1,5 @@
 body {
-  background: #000;
+  background: black;
   color: white;
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 #main {
-  font-size xx-large;
+  font-size: 40px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
