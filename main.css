@@ -1,21 +1,6 @@
 body {
   background: #000;
-  font-size: xx-large;
   color: white;
-}
-
-p, div {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-p {
-  margin: 20% 20% 0% 20%;
-}
-
-div {
-  margin: 0% 20% 20% 20%;
 }
 
 .lowercase {
@@ -24,4 +9,12 @@ div {
 
 .monospace {
   font-family: monospace;
+}
+
+#main {
+  font-size xx-large;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20% 20% 0% 20%;
 }
