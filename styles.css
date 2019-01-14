@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --main-bg-color: blue;
+  --main-fg-color: white;
+}
+
+body {
+  height: 300vh;
+  background-image: linear-gradient(var(--main-bg-color) 33%, var(--main-fg-color) 66%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+
+header,
+footer {
+  font-family: "Staatliches", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+header {
+  color: var(--main-bg-color);
+  text-shadow: 3px -3px var(--main-fg-color);
+}
+
+footer {
+  color: var(--main-fg-color);
+  text-shadow: 3px -3px var(--main-bg-color);
+}
