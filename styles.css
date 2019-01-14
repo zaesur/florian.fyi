@@ -4,8 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  --main-bg-color: #002AAB;
-  --main-fg-color: beige;
+  --main-bg-color: #0040be;
+  --main-fg-color: #f2f3f4;
 }
 
 body {
@@ -30,6 +30,7 @@ footer {
   font-style: italic;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 header {
