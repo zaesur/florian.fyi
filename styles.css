@@ -33,6 +33,11 @@ footer {
   text-align: center;
 }
 
+header::selection,
+footer::selection {
+  background: transparent;
+}
+
 header {
   color: var(--main-bg-color);
   text-shadow: 3px -3px var(--main-fg-color);
