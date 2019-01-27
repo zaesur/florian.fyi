@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 
+@font-face {
+font-family: 'Planet Kosmos';
+font-style: normal;
+font-weight: normal;
+src: local('Planet Kosmos'), url('PLANK___.woff') format('woff');
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -25,10 +32,12 @@ main {
 
 header,
 footer {
-  font-family: "Staatliches", sans-serif;
+  font-family: "Planet Kosmos", "Staatliches", sans-serif;
   font-size: 40px;
+  /*
   font-style: italic;
   letter-spacing: 0.05em;
+  */
   text-transform: uppercase;
   text-align: center;
 }
@@ -38,16 +47,19 @@ footer::selection {
   background: transparent;
 }
 
+/*
 header {
   color: var(--main-bg-color);
   text-shadow: 3px -3px var(--main-fg-color);
 }
+
 
 header:hover {
   color: var(--main-fg-color);
   text-shadow: 3px -3px var(--main-bg-color);
   cursor: pointer;
 }
+
 
 footer {
   color: var(--main-fg-color);
@@ -59,3 +71,4 @@ footer:hover {
   text-shadow: 3px -3px var(--main-fg-color);
   cursor: pointer;
 }
+*/
