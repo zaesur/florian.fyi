@@ -1,12 +1,14 @@
 <!DOCTYPE HTML>
-<html>
-  <head>
-    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}Florian Van Belleghem</title>
-    <link rel="stylesheet" type="text/css" href="/styles.css">
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    {{ block "main" . }}
-    {{ end }}
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio">
+  <meta name="author" content="Florian Van Belleghem">
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}Florian Van Belleghem</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  {{ block "main" . }}
+  {{ end }}
+</body>
 </html>

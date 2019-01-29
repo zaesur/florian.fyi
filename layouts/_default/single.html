@@ -1,5 +1,7 @@
 {{ define "main" }}
+{{ partial "header.html" . }}
 <main>
-  {{ .Date }}
+  {{ .Title }}
 </main>
+{{ partial "footer.html" . }}
 {{ end }}
