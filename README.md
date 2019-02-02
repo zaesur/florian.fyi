@@ -4,7 +4,7 @@ This is a portfolio and personal website demonstrating past projects, built usin
 
 To install:
 ```console
-$ git clone https://github.com/zaesur/portfolio.git
+$ git clone https://github.com/zaesur/florian.fyi.git
 $ cd portfolio
 $ hugo
 ```
