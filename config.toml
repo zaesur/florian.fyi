@@ -1,6 +1,7 @@
 baseURL = "https://www.florian.fyi/"
 languageCode = "en-us"
 title = "Florian Van Belleghem"
+
 [params]
   author = "Florian Van Belleghem"
   description = "Florian Van Belleghem's personal website"
