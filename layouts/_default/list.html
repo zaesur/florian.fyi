@@ -1,15 +1,8 @@
 {{ define "main" }}
-{{ partial "nav.html" . }}
-<main>
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  <div>
+<h1>{{ .Title }}</h1>
+{{ .Content }}
   {{ range .Pages }}
-  <div>
     <h2>{{ .Title }}</h2>
     {{ .Content }}
-  </div>
   {{ end }}
-  </div>
-</main>
 {{ end }}
