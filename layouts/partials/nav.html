@@ -1,8 +1,0 @@
-<nav>
-  <ul>
-    <li><a href="/">Home</a>
-    {{ range .Site.Sections }}
-    <li><a href="{{ .URL }}" class="{{ if .IsAncestor $.Page }}current{{ end }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
-</nav>

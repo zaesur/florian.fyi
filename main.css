@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f2f3f4;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main p {
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+main p:first-child::before {
+  content: "👋";
+  margin-right: 0.5em;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  color: #0040be;
+  text-decoration: none;
+}
