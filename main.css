@@ -1,11 +1,16 @@
+:root {
+  --panasonic-blue: #0040be;
+  --antiflash-white: #f2f3f4;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html {
-  background-color: #f2f3f4;
+body {
+  background-color: var(--antiflash-white);
 }
 
 main {
@@ -32,6 +37,6 @@ a,
 a:active,
 a:hover,
 a:visited {
-  color: #0040be;
+  color: var(--panasonic-blue);
   text-decoration: none;
 }
